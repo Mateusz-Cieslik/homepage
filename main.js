@@ -1,1 +1,1 @@
-alert('ziema')
+alert('elosa')
