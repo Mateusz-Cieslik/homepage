@@ -9,9 +9,10 @@
     <title>Document</title>
 </head>
 <header>
-    <nav>
-        <a href="index.html">Strona główna</a>
-        <a href="strona2.html">Strona druga</a>
+    <nav class="navigation">
+        <div>
+        <a class="navigation__link navigation__link--index" href="index.html">Strona główna</a>
+        <a class="navigation__link" href="strona2.html">Strona druga</a>
     </nav>
 </header>
 
@@ -19,17 +20,23 @@
     <main>
 
         <header>
-            <h1> Korsan - Strona domowa </h1>
+            <h1 class="main-heading main-heading--js"> Korsan - Strona domowa </h1>
         </header>
 
         <section>
             <h2>Notatki WTF: Co ten fronted </h2>
-            <article><h3> Jak stworzyć prawidłowego HTML-a?</h3>
+            <article class="week-summery"><h3> Jak stworzyć prawidłowego HTML-a?</h3>
                 <p>Tworzenie zgodnego ze standardami HTML-a, to sztuka, którą do
                 perfekcji opanowało niewielu. Jeśli chcesz się stać częścią tej grupy musisz wykazać się otwartą głową
                 i duzą ilością wolnego czasu...</p></article>
             
-            <article><h3>Czy nagrywanie szkolenia to prosta sprawa?</h3>
+            <article class="week-summery week-summery--special"><h3>Czy nagrywanie szkolenia to prosta sprawa?</h3>
+                <p>Na początku myślałem, że całe szkolenie nagram w 2 tygodnie
+                (O ja naiwny!). Samo planowanie zajęło dużo więcej!
+                Na szczęście dzięki wsparciu bliskich i sporej motywacji udało mi się utworzyć schemat nagrywania, który
+                każdego dnia przyliżą mnie do skończenia pracy.</p></article>
+
+            <article class="week-summery"><h3>Czy nagrywanie szkolenia to prosta sprawa?</h3>
                 <p>Na początku myślałem, że całe szkolenie nagram w 2 tygodnie
                 (O ja naiwny!). Samo planowanie zajęło dużo więcej!
                 Na szczęście dzięki wsparciu bliskich i sporej motywacji udało mi się utworzyć schemat nagrywania, który

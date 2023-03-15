@@ -1,0 +1,28 @@
+.navigation{
+    background-color: rgb(76, 141, 132);
+    padding: 16px;
+    border-radius: 14px;
+    position: relative;
+}
+.navigation__link{
+    background-color: aqua;
+    border-radius: 14px;
+    padding: 9px;
+    margin-left: 20px;
+    position: sticky;
+    top: 0px;
+}
+.navigation__link--index{
+    background-color: rgb(69, 87, 87);
+
+}
+.week-summery{
+    border-color: rgba(0, 0, 0, 0.3);
+    border-style:solid;
+    padding: 10px;
+    margin-bottom: 30px;
+}
+.week-summery--special{
+    border-color: rgba(0, 0, 0);
+   
+}
